@@ -1,11 +1,12 @@
 import './App.css';
 
-function App() {
+export const Home = () =>{
+
   return (
     <div className="App">
-      Test
+      Home
     </div>
   );
 }
 
-export default App;
+

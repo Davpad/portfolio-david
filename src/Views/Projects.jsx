@@ -1,10 +1,10 @@
 import './App.css';
 
-export const AboutMe = () =>{
+export const Projects = () =>{
 
   return (
     <div className="App">
-      About me
+      Projects
     </div>
   );
 }
