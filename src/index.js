@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './index.css';
-import Home from './Views/Home';
-import MyIdeas from './Views/MyIdeas';
-import AboutMe from './Views/AboutMe';
-import Projects from './Views/Projects';
+import {Home} from './Views/Home.jsx';
+import {MyIdeas} from './Views/MyIdeas.jsx';
+import {AboutMe} from './Views/AboutMe.jsx';
+import {Projects} from './Views/Projects.jsx';
 
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
