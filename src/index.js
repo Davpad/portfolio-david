@@ -9,10 +9,12 @@ import {Projects} from './Views/Projects.jsx';
 
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
+import { Navbar } from './Navbar.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Projects />} path="/projects" />
