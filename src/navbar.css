@@ -1,0 +1,23 @@
+nav {
+    background-color: rgb(100, 220, 210);
+    height:40px;
+    border-bottom: 2px solid rgba(105, 210, 200, 0.9);
+    display: flex;
+    
+}
+
+div.nav-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10px auto 10px;
+}
+
+div.right-div{
+    display: flex;
+}
+
+div.right-div div{
+    margin: auto 10px auto 10px;
+
+}
