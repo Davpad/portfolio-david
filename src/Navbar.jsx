@@ -9,17 +9,17 @@ export const Navbar = () =>{
         <nav>
             <div className="nav-div">            
                 <div className="left">
-                    <Link to="/" className="btn">Home</Link>
+                    <Link to="/" className="btn-text">Home</Link>
                 </div>
                 <div className="right-div">
-                    <div>
-                        <Link to="/projects" className="btn">My projects</Link>
+                    <div className="btn">
+                        <Link to="/projects" className="btn-text">My projects</Link>
                     </div>
                     <div>
-                        <Link to="/myideas" className="btn">My ideas</Link>
+                        <Link to="/myideas" className="btn-text">My ideas</Link>
                     </div>
                     <div>
-                        <Link to="/aboutme" className="btn">About me</Link>
+                        <Link to="/aboutme" className="btn-text">About me</Link>
                     </div>
                 </div>
             </div>

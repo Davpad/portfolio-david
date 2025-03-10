@@ -22,12 +22,12 @@ div.right-div div{
 
 }
 
-.btn{
+.btn-text{
     text-decoration: none;
     color:black;
     font-weight: bold;
 }
 
-.btn:hover{
+.btn-text:hover{
     text-shadow: 0px 0px 4px lightcyan;
 }

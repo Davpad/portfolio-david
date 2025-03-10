@@ -1,0 +1,15 @@
+.sidebar{
+    width: 20%;
+    margin: 0;
+    background-color: rgb(100, 220, 210);
+}
+
+p{
+    margin: 0;
+    padding: 5px 0px;
+
+}
+
+ul{
+    margin: 0;
+}
