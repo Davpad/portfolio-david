@@ -46,3 +46,11 @@ button{
 aside ul {
     list-style-type: none;
   }
+
+.header{
+    padding-left: 20px;
+}
+
+li{
+    padding: 5px 0px;
+}
