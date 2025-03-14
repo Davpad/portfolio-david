@@ -10,6 +10,7 @@ export const AboutMe = () =>{
           <ul>
             <li> <button onClick={() =>setView("Titles")}><p>Mis títulos</p></button></li>
             <li> <button onClick={() =>setView("Courses")}><p>Mis cursos</p></button></li>
+            <li> <button onClick={() =>setView("Technologies")}><p>Mis tecnologías</p></button></li>
           </ul>
       </aside>
       <div className="about-me">
@@ -29,6 +30,16 @@ export const AboutMe = () =>{
               <li>IT Training (11/2024 - 12/2024) <i> Igrowker</i></li>
               <li>Máster en Profesorado (10/2019 - 09/2020) <i> Universidad de Santiago de Compostela</i></li>
               <li>Licenciado en Ingeniería de Montes (10/2007 - 09/2015) <i> Universidad de Córdoba</i></li>
+            </ul>
+          </div>)}
+          {view ==="Technologies" && (<div>
+            <h1 className="header">Mis tecnologías</h1>
+            <h3 className="header">Front-end</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
             </ul>
           </div>)}
       </div>
