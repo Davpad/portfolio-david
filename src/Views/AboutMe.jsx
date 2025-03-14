@@ -35,7 +35,7 @@ export const AboutMe = () =>{
           {view ==="Technologies" && (<div>
             <h1 className="header">Mis tecnologías</h1>
             <h3 className="header">Front-end</h3>
-            <ul>
+            <ul className="inline">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>

@@ -54,3 +54,8 @@ aside ul {
 li{
     padding: 5px 0px;
 }
+
+.inline li{
+    float: left;
+    margin: 0 20px;
+}
