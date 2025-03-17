@@ -11,6 +11,7 @@ export const AboutMe = () =>{
             <li> <button onClick={() =>setView("Titles")}><p>Mis títulos</p></button></li>
             <li> <button onClick={() =>setView("Courses")}><p>Mis cursos</p></button></li>
             <li> <button onClick={() =>setView("Technologies")}><p>Mis tecnologías</p></button></li>
+            <li> <button onClick={() =>setView("Habilities")}><p>Mis habilidades</p></button></li>
           </ul>
       </aside>
       <div className="about-me">
@@ -62,6 +63,21 @@ export const AboutMe = () =>{
             <ul className="inline">
               <li>GIT</li>
               <li>GitHub</li>
+            </ul>
+          </div>)}
+          {view ==="Habilities" && (<div>
+            <h1 className="header">Mis habilidades</h1>
+            <ul>
+              <li>Modelado de páginas dinámicas utilizando <b>HTML, CSS, Bootstrap y Tailwind</b></li>
+              <li>Implementación de funcionalidades utilizando <b>React y Redux</b></li>
+              <li>Diseño de bases de datos utilizando <b>SQL Alchemy </b></li>
+              <li>Formulación de lógicas intuitivas usando  <b>JavaScript y TypeScript</b></li>
+              <li>Construcción de rutas de Backend mediante  <b>Python y Flask</b></li>
+              <li>Autenticación a través de <b>JWT</b></li>
+              <li>Control de versiones y aprobación de PR mediante <b>Git y GitHub</b></li>
+              <li>Testeo de API REST mediante <b>Postman y ThunderClient</b></li>
+              <li>Uso de APIs externas para añadir funcionalidades a las aplicaciones</li>
+
             </ul>
           </div>)}
       </div>
