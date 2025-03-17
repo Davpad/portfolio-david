@@ -38,8 +38,30 @@ export const AboutMe = () =>{
             <ul className="inline">
               <li>HTML</li>
               <li>CSS</li>
+              <li>React</li>
+              <li>Redux</li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>Bootstrap</li>
+              <li>Tailwind</li>
+            </ul>
+            <h3 className="header">Back-end</h3>
+            <ul className="inline">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>APIs</li>
+              <li>Nest.js</li>
+            </ul>
+            <h3 className="header">Bases de datos</h3>
+            <ul className="inline">
+              <li>My-SQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+            </ul>
+            <h3 className="header">Control de versiones</h3>
+            <ul className="inline">
+              <li>GIT</li>
+              <li>GitHub</li>
             </ul>
           </div>)}
       </div>
