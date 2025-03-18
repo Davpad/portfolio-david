@@ -2,7 +2,7 @@ import React, { useState} from "react";
 import "./aboutMe.css"
 
 export const AboutMe = () =>{
-  const [view, setView] = useState ("")
+  const [view, setView] = useState ("Titles")
   
   return (
     <div className="App">
