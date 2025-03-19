@@ -1,29 +1,26 @@
 import React, {useState} from "react";
 import "./aboutMe.css"
+import "./projects.css"
 
 
 export const Projects = () =>{
-  const [view, setView] = useState ("Titles")
+  const [view, setView] = useState ("En tu barrio")
 
   return (
     <div className="App">
       <aside>
           <ul>
-            <li> <button onClick={() =>setView("En tu barrio")}><p>Mis títulos</p></button></li>
-            <li> <button onClick={() =>setView("Courses")}><p>Mis cursos</p></button></li>
-            <li> <button onClick={() =>setView("Technologies")}><p>Mis tecnologías</p></button></li>
-            <li> <button onClick={() =>setView("Habilities")}><p>Mis habilidades</p></button></li>
+            <li> <button onClick={() =>setView("En tu barrio")}><p>En tu barrio</p></button></li>
           </ul>
       </aside>
       <div className="about-me">
-        {view ==="Titles" && (<div>
-            <h1 className="header">Mis títulos</h1>
-            <ul>
-              <li>Full Stack Developer. (01/2024 - 06/2024) <i>4Geeks Academy</i></li>
-              <li>Máster de Educación y TIC. (10/2021 - 06/2023) <i>Universidad Antonio Nebrija</i></li>
-              <li>Máster en Profesorado. (10/2019 - 09/2020) <i>Universidad de Santiago de Compostela</i></li>
-              <li>Licenciado en Ingeniería de Montes. (10/2007 - 09/2015) <i>Universidad de Córdoba</i></li>
-            </ul>
+        {view ==="En tu barrio" && (<div>
+            <h1 className="header">En tu barrio</h1>
+            <div className="image-array">
+              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen1" /></div>
+              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen2" /></div>
+              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen3" /></div>
+            </div>
           </div>)}
         {view ==="Courses" && (<div>
             <h1 className="header">Mis cursos</h1>
