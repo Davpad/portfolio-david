@@ -17,9 +17,10 @@ export const Projects = () =>{
         {view ==="En tu barrio" && (<div>
             <h1 className="header">En tu barrio</h1>
             <div className="image-array">
-              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen1" /></div>
-              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen2" /></div>
-              <div><img src="../../images/glade-5598324_1280.jpg" alt="Imagen3" /></div>
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556704/Entubarrio_zpnut0.png" alt="imagen1" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio3_k7drqt.png" alt="Imagen2" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio1_jav3cx.png" alt="Imagen3" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio2_incaxr.png" alt="Imagen3" />
             </div>
           </div>)}
         {view ==="Courses" && (<div>

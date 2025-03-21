@@ -1,3 +1,10 @@
 .image-array{
     display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+img{
+    width: 30%;
+    margin: 0% 1%;
 }
