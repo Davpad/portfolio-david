@@ -6,8 +6,9 @@
 }
 
 img{
-    width: 30%;
-    margin: 0% 1%;
+    width: 24%;
+    margin: 0%;
+    border: 1px outset lightgray;
 }
 
 a.button {
