@@ -22,6 +22,9 @@ export const Projects = () =>{
               <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio1_jav3cx.png" alt="Imagen3" />
               <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio2_incaxr.png" alt="Imagen3" />
             </div>
+            <div><a href="https://youtu.be/SrZRXFhTtzs" className="button">Video</a></div>
+            <div><a href="https://github.com/Davpad/proyecto-final-entubarrio" className="button">Github</a></div>
+
           </div>)}
         {view ==="Courses" && (<div>
             <h1 className="header">Mis cursos</h1>

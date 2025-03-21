@@ -2,9 +2,19 @@
     display: flex;
     justify-content: space-around;
     overflow-x: auto;
+    max-width: 100%;
 }
 
 img{
     width: 30%;
     margin: 0% 1%;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: black;
+    background-color: rgba(83, 243, 168, 0.7);
+    text-decoration: none;
 }
