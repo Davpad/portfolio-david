@@ -11,10 +11,17 @@ img{
 }
 
 a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
+    padding: 3px 16px;
+    border: 1.5px outset green;
+    border-radius: 5px;
     color: black;
-    background-color: rgba(83, 243, 168, 0.7);
+    background-color: rgba(83, 243, 168);
     text-decoration: none;
+    margin: 0.5% 0.5%;
+}
+
+.button-line{
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
 }
