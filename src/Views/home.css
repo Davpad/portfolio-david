@@ -30,16 +30,20 @@
     text-justify: inter-word;
 }
 
-.button-round{
-    width: 2%;
+.button{
+    margin: 0.5% 0.5%;
     border-radius: 50%;
     background-color: black;
     color: white;
-    padding:  0.6% 0.1% 0.6% 0.7%;
+    padding: 0% 0.5%;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
 }
 
 .button-line{
     display: flex;
     justify-content: end;
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
 }

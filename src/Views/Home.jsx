@@ -17,7 +17,7 @@ export const Home = () => {
              layouts originales y aportar soluciones únicas. Mi experiencia como docente me permite 
              localizar fácilmente los problemas en el código y aportar soluciones innovadoras y creativas. </p>
           <div className="button-line">
-            <a className="button-round"><i class="fa-solid fa-plus"></i></a>
+            <button className="button"><i class="fa-solid fa-plus"></i></button>
           </div>
         </div>
       </div>
