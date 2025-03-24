@@ -29,3 +29,17 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.button-round{
+    width: 2%;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding:  0.6% 0.1% 0.6% 0.7%;
+}
+
+.button-line{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1%;
+}
