@@ -18,6 +18,11 @@
     margin-bottom: auto;
 }
 
+.home-body h1{
+    font-size: 2.5vw;
+
+}
+
 .home-body p{
     font-size: 1.5vw;
     margin-right: 1%;
