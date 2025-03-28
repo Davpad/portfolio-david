@@ -13,13 +13,13 @@ export const Navbar = () =>{
                 </div>
                 <div className="right-div">
                     <div className="btn">
-                        <Link to="/projects" className="btn-text">My projects</Link>
+                        <Link to="/projects" className="btn-text">Mis proyectos</Link>
                     </div>
                     <div>
-                        <Link to="/myideas" className="btn-text">My ideas</Link>
+                        <Link to="/myideas" className="btn-text">Mi experiencia</Link>
                     </div>
                     <div>
-                        <Link to="/aboutme" className="btn-text">About me</Link>
+                        <Link to="/aboutme" className="btn-text">Sobre mi</Link>
                     </div>
                 </div>
             </div>
