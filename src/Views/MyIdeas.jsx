@@ -35,7 +35,7 @@ export const MyIdeas = () =>{
             </div>
             <b className="tasks">Tareas realizadas</b>
             <ul>
-              <li>Mentorías en con Flask, brindando soporte a estudiantes en su aprendizaje.</li>
+              <li>Modelado de páginas dinámicas utilizando <b>HTML, CSS, Bootstrap y Tailwind</b> </li>
               <li>Implementación de funcionalidades utilizando <b>React y Redux</b></li>
               <li>Diseño de bases de datos utilizando <b>SQL Alchemy </b></li>
               <li>Formulación de lógicas intuitivas usando  <b>JavaScript y TypeScript</b></li>
