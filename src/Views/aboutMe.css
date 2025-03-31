@@ -48,7 +48,10 @@ aside ul {
   }
 
 .header{
-    padding-left: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
 }
 
 li{
@@ -58,4 +61,13 @@ li{
 .inline li{
     float: left;
     margin: 0 20px;
+}
+
+.unbold{
+    font-weight: normal;
+}
+
+.tasks{
+    padding-left: 3%;
+    font-size: large;
 }

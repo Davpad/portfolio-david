@@ -68,7 +68,7 @@ export const AboutMe = () =>{
           {view ==="Habilities" && (<div>
             <h1 className="header">Mis habilidades</h1>
             <ul>
-              <li>Modelado de páginas dinámicas utilizando <b>HTML, CSS, Bootstrap y Tailwind</b></li>
+              <li>Mentorías en con Flask, brindando soporte a estudiantes en su aprendizaje.</li>
               <li>Implementación de funcionalidades utilizando <b>React y Redux</b></li>
               <li>Diseño de bases de datos utilizando <b>SQL Alchemy </b></li>
               <li>Formulación de lógicas intuitivas usando  <b>JavaScript y TypeScript</b></li>
