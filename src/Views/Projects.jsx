@@ -23,8 +23,8 @@ export const Projects = () =>{
               <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio2_incaxr.png" alt="Imagen3" />
             </div>
             <div className="button-line">
-              <a href="https://youtu.be/SrZRXFhTtzs" className="button"><i class="fa-solid fa-video"></i></a>
-              <a href="https://github.com/Davpad/proyecto-final-entubarrio" className="button"><i class="fa-brands fa-github"></i></a>
+              <a href="https://youtu.be/SrZRXFhTtzs" className="button"><i className="fa-solid fa-video"></i></a>
+              <a href="https://github.com/Davpad/proyecto-final-entubarrio" className="button"><i className="fa-brands fa-github"></i></a>
             </div>
 
           </div>)}

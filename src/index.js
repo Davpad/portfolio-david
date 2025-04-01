@@ -10,6 +10,7 @@ import {Projects} from './Views/Projects.jsx';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
 import { Navbar } from './Navbar.jsx';
+import { Footer } from './Footer.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route element={<MyIdeas />} path="/myideas" />
         <Route element={<AboutMe />} path="/aboutme" />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>,
 );
