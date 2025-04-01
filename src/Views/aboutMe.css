@@ -1,9 +1,11 @@
 aside{
     width: 20%;
-    min-height: 93.75vh;
+    min-height: 89.75vh;
     margin: 0;
     float: left;
     background-color: rgba(83, 243, 168, 0.7);
+    border-right: 2px solid rgba(8, 130, 73, 0.8);
+
 }
 
 p{
