@@ -26,3 +26,15 @@ a.button {
     justify-content: end;
     padding-right: 2%;
 }
+
+.tool-icon{
+    font-size: xx-large;
+    padding: 2%
+}
+
+.tools-line{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-right: 5%;
+}
