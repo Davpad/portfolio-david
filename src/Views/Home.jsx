@@ -24,13 +24,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="home-body">
-        {view==="show"&&(<p>Veo que estás interesado en mi Portfolio. ¡Es altamente interactivo!.
-           En el navbar de arriba podrás localizar más información sobre mis proyectos y mi experiencia. 
-           El apartado sobre mi contiene información sobre mis títulos y cursos, 
-           las tecnologías que utilizo y las hablidades que he ido adquiriendo a lo largo de mi camino
-            como desarrollador. Algunos apartados son altamente interactivos y contienen botones que 
-            nos dirigen a videos de presentación, al repositorio de Github o a la propia página web. 
-            ¡Seguid los botones verdes!</p>)}
+        {view==="show"&&(<p>Si quieres saber más cosas sobre mí, me gusta leer, los juegos de mesa y la naturaleza. También me encanta compartir mis conocimientos con otras personas, ya sea enseñando o creando aplicaciones interactivas con mi código. Me considero una persona proactiva, con una gran capacidad para resolver problemas y muy curiosa. Siempre intento buscar nuevas formas para mejorar mis aplicaciones, ya que soy muy perfeccionista. ¡Si creo que algo puede hacerse, no pararé hasta conseguirlo!</p>)}
       </div>
     </div>
   );
