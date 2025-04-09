@@ -51,7 +51,6 @@ export const Projects = () =>{
                 <i class="fa-brands fa-js tool-icon"></i>
                 <i class="fa-brands fa-bootstrap tool-icon"></i>
                 <i class="fa-brands fa-react tool-icon"></i>
-                <i class="fa-brands fa-python tool-icon"></i>
               </div>
             </div>
             

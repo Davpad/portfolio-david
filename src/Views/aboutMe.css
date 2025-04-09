@@ -47,6 +47,8 @@ button{
 
 aside ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
 .header{
@@ -57,7 +59,11 @@ aside ul {
 }
 
 li{
-    padding: 5px 0px;
+    padding: 2% 3%;
+}
+
+li :hover{
+    font-weight: 700;
 }
 
 .inline li{
