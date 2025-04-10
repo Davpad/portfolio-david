@@ -62,7 +62,7 @@ export const Projects = () =>{
             </div>
             <div className="button-line">
               <a href="https://youtube.com/shorts/0gUeS3i0ihE" className="button"><i className="fa-solid fa-video"></i></a>
-              <a href="https://github.com/Davpad/proyecto-final-entubarrio" className="button"><i className="fa-brands fa-github"></i></a>
+              <a href="https://github.com/Davpad/i004-pawsome-front" className="button"><i className="fa-brands fa-github"></i></a>
             </div>
 
 
