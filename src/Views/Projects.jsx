@@ -20,12 +20,12 @@ export const Projects = () =>{
             <div className="header">
               <h1>En tu barrio</h1>
               <div className="tools-line">
-                <i class="fa-brands fa-html5 tool-icon"></i>
-                <i class="fa-brands fa-css3-alt tool-icon"></i>
-                <i class="fa-brands fa-js tool-icon"></i>
-                <i class="fa-brands fa-bootstrap tool-icon"></i>
-                <i class="fa-brands fa-react tool-icon"></i>
-                <i class="fa-brands fa-python tool-icon"></i>
+                <i className="fa-brands fa-html5 tool-icon"></i>
+                <i className="fa-brands fa-css3-alt tool-icon"></i>
+                <i className="fa-brands fa-js tool-icon"></i>
+                <i className="fa-brands fa-bootstrap tool-icon"></i>
+                <i className="fa-brands fa-react tool-icon"></i>
+                <i className="fa-brands fa-python tool-icon"></i>
               </div>
             </div>
             
@@ -46,11 +46,11 @@ export const Projects = () =>{
             <div className="header">
               <h1>Pawsome</h1>
               <div className="tools-line">
-                <i class="fa-brands fa-html5 tool-icon"></i>
-                <i class="fa-brands fa-css3-alt tool-icon"></i>
-                <i class="fa-brands fa-js tool-icon"></i>
-                <i class="fa-brands fa-bootstrap tool-icon"></i>
-                <i class="fa-brands fa-react tool-icon"></i>
+                <i className="fa-brands fa-html5 tool-icon"></i>
+                <i className="fa-brands fa-css3-alt tool-icon"></i>
+                <i className="fa-brands fa-js tool-icon"></i>
+                <i className="fa-brands fa-bootstrap tool-icon"></i>
+                <i className="fa-brands fa-react tool-icon"></i>
               </div>
             </div>
             

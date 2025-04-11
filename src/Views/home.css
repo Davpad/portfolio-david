@@ -1,3 +1,10 @@
+body{
+    background: url(../img/glade-5598324_1280.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
 .home-body{
     width: 95%;
     margin: auto;

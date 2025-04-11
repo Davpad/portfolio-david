@@ -19,12 +19,17 @@ export const Home = () => {
              layouts originales y aportar soluciones únicas. Mi experiencia como docente me permite 
              localizar fácilmente los problemas en el código y aportar soluciones innovadoras y creativas. </p>
           <div className="button-line">
-            <button className="button" onClick={()=>setView("show")}><i class="fa-solid fa-plus"></i></button>
+            <button className="button" onClick={()=>setView("show")}><i className="fa-solid fa-plus"></i></button>
           </div>
         </div>
       </div>
       <div className="home-body">
-        {view==="show"&&(<p>Si quieres saber más cosas sobre mí, me gusta leer, los juegos de mesa y la naturaleza. También me encanta compartir mis conocimientos con otras personas, ya sea enseñando o creando aplicaciones interactivas con mi código. Me considero una persona proactiva, con una gran capacidad para resolver problemas y muy curiosa. Siempre intento buscar nuevas formas para mejorar mis aplicaciones, ya que soy muy perfeccionista. ¡Si creo que algo puede hacerse, no pararé hasta conseguirlo!</p>)}
+        {view==="show"&&(<p>Si quieres saber más cosas sobre mí, me gusta leer, los juegos de
+          mesa y la naturaleza. También me encanta compartir mis conocimientos con otras personas
+          , ya sea enseñando o creando aplicaciones interactivas con mi código. Me considero una 
+          persona proactiva, con una gran capacidad para resolver problemas y muy curiosa.
+           Siempre intento buscar nuevas formas para mejorar mis aplicaciones, ya que soy muy 
+           perfeccionista. ¡Si creo que algo puede hacerse, no pararé hasta conseguirlo!</p>)}
       </div>
     </div>
   );

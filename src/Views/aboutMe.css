@@ -21,6 +21,7 @@ body{
     background: url(../img/glade-5598324_1280.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 .about-me{
@@ -56,6 +57,12 @@ aside ul {
     padding-right: 3%;
     display: flex;
     justify-content: space-between;
+    font-size: 3vw;
+
+}
+
+h1{
+    font-size: 2.5vw;
 }
 
 li{
@@ -73,9 +80,11 @@ li :hover{
 
 .unbold{
     font-weight: normal;
+    font-size: 2.5vw;
+
 }
 
 .tasks{
     padding-left: 3%;
-    font-size: large;
+    font-size: 2vw;
 }
