@@ -1,12 +1,12 @@
 .image-array{
     display: flex;
     justify-content: space-around;
-    overflow-x: auto;
     max-width: 100%;
 }
 
 img{
-    width: 24%;
+    width: auto;
+    height: 26vh;
     margin: 0%;
     border: 1px outset lightgray;
 }

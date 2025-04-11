@@ -55,10 +55,10 @@ export const Projects = () =>{
             </div>
             
             <div className="image-array">
-              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556704/Entubarrio_zpnut0.png" alt="imagen1" />
-              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio3_k7drqt.png" alt="Imagen2" />
-              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio1_jav3cx.png" alt="Imagen3" />
-              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1742556680/Entubarrio2_incaxr.png" alt="Imagen3" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1744368884/WhatsApp_Image_2025-04-11_at_10.41.01_zb2kdu.jpg" alt="imagen1" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1744368954/WhatsApp_Image_2025-04-11_at_12.37.10_tkbbqg.jpg" alt="Imagen2" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1744368914/WhatsApp_Image_2025-04-11_at_10.50.08_jrkvyv.jpg" alt="Imagen3" />
+              <img src="https://res.cloudinary.com/dwybb4syq/image/upload/v1744368939/WhatsApp_Image_2025-04-11_at_12.33.44_1_ikcywx.jpg" alt="Imagen4" />
             </div>
             <div className="button-line">
               <a href="https://youtube.com/shorts/0gUeS3i0ihE" className="button"><i className="fa-solid fa-video"></i></a>
