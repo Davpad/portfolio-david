@@ -35,35 +35,44 @@ export const AboutMe = () =>{
           </div>)}
           {view ==="Technologies" && (<div>
             <h1 className="header">Mis tecnologías</h1>
-            <h3 className="header">Front-end</h3>
-            <ul className="inline">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>Bootstrap</li>
-              <li>Tailwind</li>
-            </ul><br></br>
-            <h3 className="header">Back-end</h3>
-            <ul className="inline">
-              <li>Python</li>
-              <li>Flask</li>
-              <li>APIs</li>
-              <li>Nest.js</li>
-            </ul><br></br>
-            <h3 className="header">Bases de datos</h3>
-            <ul className="inline">
-              <li>My-SQL</li>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-            </ul><br></br>
-            <h3 className="header">Control de versiones</h3>
-            <ul className="inline">
-              <li>GIT</li>
-              <li>GitHub</li>
-            </ul>
+            <div className="tool-block">
+              <h3 className="tools">Front-end</h3>
+              <ul className="inline">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+              </ul>
+            </div>
+            <div className="tool-block">
+              <h3 className="tools">Back-end</h3>
+              <ul className="inline">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>APIs</li>
+                <li>Nest.js</li>
+              </ul> 
+            </div>
+            <div className="tool-block">
+              <h3 className="tools">Bases de datos</h3>
+              <ul className="inline">
+                <li>My-SQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div className="tool-block">
+              <h3 className="tools">Control de versiones</h3>
+              <ul className="inline">
+                <li>GIT</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
+
           </div>)}
           {view ==="Habilities" && (<div>
             <h1 className="header">Mis habilidades</h1>
