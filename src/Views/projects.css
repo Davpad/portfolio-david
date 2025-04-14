@@ -38,3 +38,12 @@ a.button {
     display: flex;
     margin-right: 5%;
 }
+
+.project-text{
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.5vw;
+
+}
